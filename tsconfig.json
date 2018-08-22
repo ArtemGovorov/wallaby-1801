@@ -1,0 +1,131 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@spawntech/*": [
+        "libs/*"
+      ],
+      "@spawntech/components/badge-icon": [
+        "libs/components/badge-icon/src/index.ts"
+      ],
+      "@spawntech/components/coming-soon": [
+        "libs/components/coming-soon/src/index.ts"
+      ],
+      "@spawntech/components/info": [
+        "libs/components/info/src/index.ts"
+      ],
+      "@spawntech/components/licenses": [
+        "libs/components/licenses/src/index.ts"
+      ],
+      "@spawntech/components/master-slave": [
+        "libs/components/master-slave/src/index.ts"
+      ],
+      "@spawntech/components/profile": [
+        "libs/components/profile/src/index.ts"
+      ],
+      "@spawntech/components/selection-list": [
+        "libs/components/selection-list/src/index.ts"
+      ],
+      "@spawntech/components/timeline": [
+        "libs/components/timeline/src/index.ts"
+      ],
+      "@spawntech/components/uploader": [
+        "libs/components/uploader/src/index.ts"
+      ],
+      "@spawntech/core/backend": [
+        "libs/core/backend/src/index.ts"
+      ],
+      "@spawntech/core/features/accounts": [
+        "libs/core/features/accounts/src/index.ts"
+      ],
+      "@spawntech/core/features/auth": [
+        "libs/core/features/auth/src/index.ts"
+      ],
+      "@spawntech/core/features/billing": [
+        "libs/core/features/billing/src/index.ts"
+      ],
+      "@spawntech/core/features/disabled": [
+        "libs/core/features/disabled/src/index.ts"
+      ],
+      "@spawntech/core/features/get-started": [
+        "libs/core/features/get-started/src/index.ts"
+      ],
+      "@spawntech/core/features/recycle-bin": [
+        "libs/core/features/recycle-bin/src/index.ts"
+      ],
+      "@spawntech/core/features/user-settings": [
+        "libs/core/features/user-settings/src/index.ts"
+      ],
+      "@spawntech/core/forms": [
+        "libs/core/forms/src/index.ts"
+      ],
+      "@spawntech/core/help": [
+        "libs/core/help/src/index.ts"
+      ],
+      "@spawntech/core/hooks": [
+        "libs/core/hooks/src/index.ts"
+      ],
+      "@spawntech/core/models": [
+        "libs/core/models/src/index.ts"
+      ],
+      "@spawntech/core/router": [
+        "libs/core/router/src/index.ts"
+      ],
+      "@spawntech/core/types": [
+        "libs/core/types/src/index.ts"
+      ],
+      "@spawntech/core/ui": [
+        "libs/core/ui/src/index.ts"
+      ],
+      "@spawntech/core/utils": [
+        "libs/core/utils/src/index.ts"
+      ],
+      "@spawntech/cxfi/features/dashboard": [
+        "libs/cxfi/features/dashboard/src/index.ts"
+      ],
+      "@spawntech/cxfi/features/ideas": [
+        "libs/cxfi/features/ideas/src/index.ts"
+      ],
+      "@spawntech/cxfi/features/projects": [
+        "libs/cxfi/features/projects/src/index.ts"
+      ],
+      "@spawntech/cxfi/models": [
+        "libs/cxfi/models/src/index.ts"
+      ],
+      "@spawntech/cxfi/types": [
+        "libs/cxfi/types/src/index.ts"
+      ],
+      "@spawntech/pipes/money": [
+        "libs/pipes/money/src/index.ts"
+      ],
+      "@spawntech/pipes/truncate": [
+        "libs/pipes/truncate/src/index.ts"
+      ],
+      "@spawntech/components/metadata-chip": [
+        "libs/components/metadata-chip/src/index.ts"
+      ],
+      "@spawntech/charts": [
+        "libs/charts/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "wallabyTest.ts",
+    "node_modules",
+    "tmp"
+  ]
+}
